@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  background: linen;
+  color: darkgoldenrod;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 0 2em 0 grey;
+}
+
+.navbar {
+  max-width: 70rem;
+  padding: 0 1.5em;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.brand {
+  padding: 1rem 0;
+}
+
+.nav__links {
+  display: none;
+}
+
+.nav__links li {
+  list-style: none;
+}
+
+.nav__links li a {
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: darkgoldenrod;
+}
+
+.nav__links li a:hover {
+  text-decoration: underline;
+}
+
+.nav__links.show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+}
+.hero {
+  background-image: url(images/1.webp);
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-1 {
+  background-image: url(images/2.webp);
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-2 {
+  background-image: url(images/3.webp);
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-3 {
+  background-image: url(images/4.webp);
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.hero-1 h1 {
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.hero-2 h1 {
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.hero-3 h1 {
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.main-text {
+  font-size: large;
+  max-width: 85%;
+  margin: 0.5rem auto;
+  text-align: center;
+}
+
+.text-heading-top {
+  padding-top: 1rem;
+}
+
+.text {
+  padding: 0.5rem;
+  font-size: 1em;
+  margin: 1rem auto;
+  text-align: justify;
+}
+
+/* blog section */
+
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.blog-post {
+  width: 100%;
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.blog-title {
+  font-size: 24px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.blog-description {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.read-more {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.hero-post-1 {
+  background-image: url(images/image1.webp);
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-post-2 {
+  background-image: url(images/image2.webp);
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-post-1 h1 {
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.hero-post-2 h1 {
+  background-color: yellow;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* footer section */
+
+footer {
+  height: 3rem;
+  text-align: center;
+  background: linen;
+  color: darkgoldenrod;
+  display: flex;
+  align-items: center; /* Центриране по вертикала */
+  justify-content: center;
+}
+
+/* mobile */
+
+@media (min-width: 35em) {
+  .hamburger {
+    display: none;
+  }
+
+  .nav__links {
+    display: flex;
+  }
+
+  .text {
+    max-width: 85%;
+    text-align: justify;
+    text-align: center;
+  }
+
+  .blog-post {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
