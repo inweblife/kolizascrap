@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /backup/
+Allow: /
+
+Sitemap: https://kolizaskrap.netlify.app/sitemap.xml
