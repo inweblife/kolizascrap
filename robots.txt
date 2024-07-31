@@ -4,4 +4,4 @@ Disallow: /tmp/
 Disallow: /backup/
 Allow: /
 
-Sitemap: https://kolizaskrap.netlify.app/sitemap.xml
+Sitemap: https://inweblife.github.io/kolizascrap/sitemap.xml
