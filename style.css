@@ -309,28 +309,38 @@ nav {
 
 .post-nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.5rem;
   max-width: 800px;
-  margin: 2rem auto;
-  padding: 1rem 0.5rem;
-  border-top: 1px solid #ddd;
-  gap: 1rem;
+  margin: 3rem auto 2rem;
+  padding: 2rem 1rem 0;
+  border-top: 2px solid #e8d5a3;
 }
 
 .post-nav a {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: darkgoldenrod;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding: 1.2rem 1.5rem;
+  background: linear-gradient(135deg, #b8860b 0%, #daa520 60%, #c9961a 100%);
   color: white;
   text-decoration: none;
-  border-radius: 5px;
-  font-size: 0.9em;
-  transition: background-color 0.2s;
+  border-radius: 10px;
+  font-size: 0.92em;
+  font-weight: 600;
+  line-height: 1.4;
+  box-shadow: 0 4px 14px rgba(184, 134, 11, 0.3);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+  max-width: 48%;
 }
 
 .post-nav a:hover {
-  background-color: #8B6914;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(184, 134, 11, 0.45);
+  background: linear-gradient(135deg, #a07808 0%, #c8920e 60%, #b8860b 100%);
+  color: white;
 }
 
 .post-nav .nav-prev {
@@ -339,14 +349,22 @@ nav {
 
 .post-nav .nav-next {
   text-align: right;
-  margin-left: auto;
 }
 
 .post-nav .nav-label {
   display: block;
-  font-size: 0.75em;
-  opacity: 0.85;
-  margin-bottom: 2px;
+  font-size: 0.72em;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.82;
+  margin-bottom: 0.35rem;
+}
+
+.post-nav .nav-title {
+  display: block;
+  font-size: 0.95em;
+  font-weight: 700;
 }
 
 /* footer section */
