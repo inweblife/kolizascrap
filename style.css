@@ -305,6 +305,50 @@ nav {
   display: inline-block;
 }
 
+/* post navigation */
+
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem 0.5rem;
+  border-top: 1px solid #ddd;
+  gap: 1rem;
+}
+
+.post-nav a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: darkgoldenrod;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9em;
+  transition: background-color 0.2s;
+}
+
+.post-nav a:hover {
+  background-color: #8B6914;
+}
+
+.post-nav .nav-prev {
+  text-align: left;
+}
+
+.post-nav .nav-next {
+  text-align: right;
+  margin-left: auto;
+}
+
+.post-nav .nav-label {
+  display: block;
+  font-size: 0.75em;
+  opacity: 0.85;
+  margin-bottom: 2px;
+}
+
 /* footer section */
 
 footer {
