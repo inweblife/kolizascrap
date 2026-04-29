@@ -9,5 +9,9 @@ document.getElementById('year').textContent = new Date().getFullYear();
 function sendMail() {
     const user = "admin";
     const domain = "ecometal.bg";
-    window.location.href = "mailto:" + user + "@" + domain;
+    const a = document.createElement('a');
+    a.href = "mailto:" + user + "@" + domain;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
 }
