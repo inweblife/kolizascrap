@@ -295,6 +295,14 @@ nav {
   margin: 2rem 0;
 }
 
+button.contact-card {
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
 .contact-card {
   display: flex;
   align-items: center;

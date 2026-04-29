@@ -5,3 +5,9 @@ const showMenu = () => {
 }
 
 document.getElementById('year').textContent = new Date().getFullYear();
+
+function sendMail() {
+    const user = "admin";
+    const domain = "ecometal.bg";
+    window.location.href = "mailto:" + user + "@" + domain;
+}
