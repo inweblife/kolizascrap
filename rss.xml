@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Изкупуване на коли за скрап</title>
+    <link>http://kolipari.bg/</link>
+    <description>Блогът за изкупуване на коли за скрап — цени, документи, бракуване и безплатен транспорт на автомобили.</description>
+    <language>bg</language>
+    <atom:link href="http://kolipari.bg/rss.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Sun, 20 Apr 2026 00:00:00 +0000</lastBuildDate>
+
+    <item>
+      <title>Как се ползва коли за скрап калкулатор</title>
+      <link>http://kolipari.bg/kak-se-polzva-koli-za-scrap-kalkulator.html</link>
+      <description>Как се ползва коли за скрап калкулатор? Въведете марка, модел и местоположение и веднага получете оферта. Записването е всеки ден от 8 до 20 часа, безплатен транспорт.</description>
+      <guid isPermaLink="true">http://kolipari.bg/kak-se-polzva-koli-za-scrap-kalkulator.html</guid>
+      <pubDate>Sun, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>Бракуване на МПС с безплатен транспорт</title>
+      <link>http://kolipari.bg/brakuvane-na-mps-s-bezplaten-transport.html</link>
+      <description>Искате да бракувате кола? Лицензиран център за изкупуване на МПС за скрап. Бърза процедура, коректни цени, безплатно взимане от адрес и удостоверение за КАТ.</description>
+      <guid isPermaLink="true">http://kolipari.bg/brakuvane-na-mps-s-bezplaten-transport.html</guid>
+      <pubDate>Sun, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>Изкупуване на коли за скрап София</title>
+      <link>http://kolipari.bg/koli-za-scrap-sofia.html</link>
+      <description>Изкупуване на коли за скрап в София. Безплатно извозване от адрес, документи за КАТ, плащане в брой. Работим всеки ден от 8 до 20ч. Обади се: 0885 70 16 60.</description>
+      <guid isPermaLink="true">http://kolipari.bg/koli-za-scrap-sofia.html</guid>
+      <pubDate>Sun, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>С какви документи се бракува кола</title>
+      <link>http://kolipari.bg/s-kakvi-dokumenti-se-brakuva-kola.html</link>
+      <description>С какви документи се бракува кола? Нужни са само копие на талона и лична карта. Ние издаваме удостоверение за дерегистрация в КАТ и плащаме в брой на място.</description>
+      <guid isPermaLink="true">http://kolipari.bg/s-kakvi-dokumenti-se-brakuva-kola.html</guid>
+      <pubDate>Sun, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+
+    <item>
+      <title>Как се оценява кола за скрап</title>
+      <link>http://kolipari.bg/kak-se-ocenqva-kola-za-scrap.html</link>
+      <description>Как се оценява кола за скрап? Цената се определя по теглото на автомобила и борсовите цени на метала. Научете как получавате най-справедливата оферта.</description>
+      <guid isPermaLink="true">http://kolipari.bg/kak-se-ocenqva-kola-za-scrap.html</guid>
+      <pubDate>Sun, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+
+  </channel>
+</rss>
