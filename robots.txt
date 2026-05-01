@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://kolipari.bg/sitemap.xml
+Sitemap: https://kolipari.bg/sitemap.xml

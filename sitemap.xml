@@ -6,47 +6,47 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://kolipari.bg/</loc>
+  <loc>https://kolipari.bg/</loc>
   <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://kolipari.bg/about.html</loc>
+  <loc>https://kolipari.bg/about.html</loc>
   <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kolipari.bg/blog.html</loc>
+  <loc>https://kolipari.bg/blog.html</loc>
   <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kolipari.bg/contact.html</loc>
+  <loc>https://kolipari.bg/contact.html</loc>
   <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kolipari.bg/kak-se-ocenqva-kola-za-scrap.html</loc>
+  <loc>https://kolipari.bg/kak-se-ocenqva-kola-za-scrap.html</loc>
   <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://kolipari.bg/s-kakvi-dokumenti-se-brakuva-kola.html</loc>
+  <loc>https://kolipari.bg/s-kakvi-dokumenti-se-brakuva-kola.html</loc>
   <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://kolipari.bg/koli-za-scrap-sofia.html</loc>
+  <loc>https://kolipari.bg/koli-za-scrap-sofia.html</loc>
   <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://kolipari.bg/brakuvane-na-mps-s-bezplaten-transport.html</loc>
+  <loc>https://kolipari.bg/brakuvane-na-mps-s-bezplaten-transport.html</loc>
   <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://kolipari.bg/kak-se-polzva-koli-za-scrap-kalkulator.html</loc>
+  <loc>https://kolipari.bg/kak-se-polzva-koli-za-scrap-kalkulator.html</loc>
   <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
