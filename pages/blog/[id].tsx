@@ -151,6 +151,17 @@ export default function BlogPost({ post }: PostPageProps) {
             </div>
           )}
           <div dangerouslySetInnerHTML={{ __html: sanitize(post.content) }} />
+          {post.slug === "bezplaten-transport-izkupuvane-na-koli" && (
+            <p>
+              <a
+                href="https://seo-optimizacia.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <strong>SEO оптимизация</strong>
+              </a>
+            </p>
+          )}
         </article>
 
         {/* Previous/Next Post Navigation */}
