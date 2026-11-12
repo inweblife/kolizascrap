@@ -340,7 +340,8 @@ ${CTA}`,
 });
 
 // ── sitemap.xml и rss.xml ────────────────────────────────────
-const today = new Date().toISOString().slice(0, 10);
+// Дата на последната промяна на страниците (сменя се ръчно при промяна на текстовете).
+const today = "2026-11-12";
 const urls = [
   ["/", "daily", "1.0", today],
   ["/about", "monthly", "0.7", today],
@@ -367,7 +368,7 @@ write("rss.xml", `<?xml version="1.0" encoding="UTF-8"?>
     <link>${BASE}</link>
     <description>Полезни статии за изкупуване и бракуване на автомобили в София и Софийска област</description>
     <language>bg</language>
-    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    <lastBuildDate>${new Date(posts[0]?.date || Date.now()).toUTCString()}</lastBuildDate>
     <atom:link href="${BASE}/rss.xml" rel="self" type="application/rss+xml"/>
 ${posts.map((p) => `    <item>
       <title><![CDATA[${p.title}]]></title>
