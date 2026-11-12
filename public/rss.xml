@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Коли за скрап София - Блог</title>
+    <link>https://kolizascrap.vercel.app</link>
+    <description>Полезни статии за изкупуване и бракуване на автомобили в София и Софийска област</description>
+    <language>bg</language>
+    <lastBuildDate>Thu, 12 Nov 2026 13:49:05 GMT</lastBuildDate>
+    <atom:link href="https://kolizascrap.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title><![CDATA[Как да бракуваме кола без документи и номера?]]></title>
+      <link>https://kolizascrap.vercel.app/blog/brakuvane-na-kola-bez-dokumenti-i-nomera</link>
+      <guid isPermaLink="true">https://kolizascrap.vercel.app/blog/brakuvane-na-kola-bez-dokumenti-i-nomera</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Как да бракувате кола без документи и номера? Научете как да дерегистрирате автомобил в КАТ без глоби, дори с неплатени данъци или наследствен.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Безплатен транспорт при изкупуване на коли за скрап]]></title>
+      <link>https://kolizascrap.vercel.app/blog/bezplaten-transport-izkupuvane-na-koli</link>
+      <guid isPermaLink="true">https://kolizascrap.vercel.app/blog/bezplaten-transport-izkupuvane-na-koli</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Безплатен транспорт при изкупуване на коли в София - идваме на адрес, плащаме в брой на момента, без скрити такси. Работим 7 дни от 08:00 до 20:00.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Изкупуване на коли за скрап]]></title>
+      <link>https://kolizascrap.vercel.app/blog/izkupuvane-na-koli-za-scrap</link>
+      <guid isPermaLink="true">https://kolizascrap.vercel.app/blog/izkupuvane-na-koli-za-scrap</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Изкупуваме стари, катастрофирали и наследствени коли в София. Безплатен транспорт от адрес, плащане в брой и удостоверение за дерегистрация на място.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Документи за бракуване на кола]]></title>
+      <link>https://kolizascrap.vercel.app/blog/dokumenti-za-brakuvane-na-kola</link>
+      <guid isPermaLink="true">https://kolizascrap.vercel.app/blog/dokumenti-za-brakuvane-na-kola</guid>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Какви документи за бракуване на кола са необходими? Лична карта и един талон са достатъчни. Дерегистрация в КАТ - стъпка по стъпка.]]></description>
+    </item>
+    <item>
+      <title><![CDATA[Колко струва кола за скрап]]></title>
+      <link>https://kolizascrap.vercel.app/blog/kolko-struva-kola-za-scrap</link>
+      <guid isPermaLink="true">https://kolizascrap.vercel.app/blog/kolko-struva-kola-za-scrap</guid>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 GMT</pubDate>
+      <description><![CDATA[Колко струва кола за скрап в София? Безплатна онлайн оценка по марка, модел, година и техническо състояние. Плащаме веднага в брой или по банков път.]]></description>
+    </item>
+  </channel>
+</rss>
