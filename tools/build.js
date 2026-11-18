@@ -7,7 +7,7 @@ const path = require("path");
 
 const ROOT = path.join(__dirname, "..");
 const OUT = path.join(ROOT, "public");
-const BASE = "https://kolizascrap.vercel.app";
+const BASE = "https://kolizascrap.net";
 const SITE = "Коли за скрап София";
 const PHONE = "+359878817777";
 const PHONE_LABEL = "0878 817777";
@@ -146,7 +146,6 @@ ${body}
   </div>
   <div class="container site-footer__bottom">
     <p>&copy; ${year} ${SITE}. Всички права запазени.</p>
-    <p><a href="https://inweblife.net/" target="_blank" rel="noopener noreferrer"><strong>Изработка на уебсайт и оптимизация</strong></a></p>
   </div>
 </footer>
 
@@ -234,11 +233,6 @@ for (const p of STATIC) write(p.file, layout({ ...p, body: page(p.file) }));
 const posts = JSON.parse(fs.readFileSync(path.join(ROOT, "data", "blog-posts.json"), "utf8"))
   .sort((a, b) => new Date(b.date) - new Date(a.date) || b.id - a.id);
 
-// Допълнителен HTML в края на определени статии (запазен от старата версия).
-const POST_EXTRA = {
-  "bezplaten-transport-izkupuvane-na-koli":
-    '<p><a href="https://seo-optimizacia.org/" target="_blank" rel="noopener noreferrer"><strong>SEO оптимизация</strong></a></p>',
-};
 
 const card = (post) => `<article class="post-card">
   <a class="post-card__img" href="/blog/${post.slug}" tabindex="-1" aria-hidden="true">
@@ -328,7 +322,6 @@ posts.forEach((post, i) => {
   ${post.image ? `<div class="container post__image"><img src="${img(post.image)}" alt="${esc(post.title)}" width="1200" height="675" fetchpriority="high"></div>` : ""}
   <div class="container prose">
 ${post.content}
-${POST_EXTRA[post.slug] || ""}
   </div>
   <nav class="container post-nav" aria-label="Други статии">
     ${newer ? `<a class="post-nav__link" href="/blog/${newer.slug}"><span>← Предишен</span>${esc(newer.title)}</a>` : "<span></span>"}

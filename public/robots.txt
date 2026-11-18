@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /api/
 
-Sitemap: https://kolizascrap.vercel.app/sitemap.xml
+Sitemap: https://kolizascrap.net/sitemap.xml

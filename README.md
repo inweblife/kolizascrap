@@ -1,6 +1,6 @@
 # Коли за скрап София
 
-Статичен сайт на чист HTML + CSS. Live: https://kolizascrap.vercel.app/
+Статичен сайт на чист HTML + CSS. Live: https://kolizascrap.net/
 
 ## Структура
 
