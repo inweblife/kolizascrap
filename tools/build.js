@@ -138,8 +138,6 @@ ${body}
       <p class="site-footer__title">Контакти</p>
       <ul>
         <li><a href="tel:${PHONE}">${PHONE_LABEL}</a></li>
-        <li><a href="mailto:cars@ecometal.bg">cars@ecometal.bg</a></li>
-        <li><a href="https://www.facebook.com/ecometal/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
       </ul>
       <address>ул. Свети Георги Победоносец №1а,<br>кв. Кремиковци, София 1849</address>
     </div>
@@ -178,10 +176,8 @@ const STATIC = [
         url: BASE,
         description: "Изкупуване на автомобили за скрап в София и Софийска област. Безплатен транспорт от адрес, плащане в брой на момента, удостоверение за дерегистрация.",
         telephone: PHONE,
-        email: "cars@ecometal.bg",
         image: `${BASE}/mercedes.webp`,
         logo: `${BASE}/mercedes.webp`,
-        sameAs: ["https://www.facebook.com/ecometal/"],
         address: {
           "@type": "PostalAddress",
           streetAddress: "ул. Свети Георги Победоносец №1а",

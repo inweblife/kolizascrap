@@ -190,6 +190,7 @@ p { margin: 0 0 1.1em; }
 .contact-card .feature__icon { margin-bottom: .5rem; }
 .contact-card__label { font-size: .95rem; }
 .contact-card__value { color: var(--brand); font-size: 1.25rem; }
+.contact-cards--single { grid-template-columns: 1fr; max-width: 420px; }
 @media (max-width: 780px) { .contact-cards { grid-template-columns: 1fr; } }
 
 /* ── Блог ────────────────────────────────────────────────── */
