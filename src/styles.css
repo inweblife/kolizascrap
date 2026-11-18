@@ -192,6 +192,26 @@ p { margin: 0 0 1.1em; }
 .contact-card__value { color: var(--brand); font-size: 1.25rem; }
 .contact-cards--single { grid-template-columns: 1fr; max-width: 420px; }
 @media (max-width: 780px) { .contact-cards { grid-template-columns: 1fr; } }
+.contact-form {
+  max-width: 760px; margin: 0 auto 3rem; padding: clamp(1.25rem, 4vw, 2rem);
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow);
+}
+.contact-form__lead { color: var(--muted); }
+.contact-form__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.25rem; }
+.contact-form__full { grid-column: 1 / -1; }
+.contact-form label { display: flex; flex-direction: column; gap: .35rem; font-size: .95rem; font-weight: 600; color: var(--ink-soft); }
+.contact-form input, .contact-form textarea {
+  font: inherit; font-weight: 400; color: var(--ink); padding: .7rem .85rem;
+  border: 1px solid var(--line); border-radius: 10px; background: var(--bg);
+}
+.contact-form input:focus, .contact-form textarea:focus { outline: 2px solid var(--brand); outline-offset: 0; background: #fff; }
+.contact-form textarea { resize: vertical; }
+.contact-form__hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.contact-form__status { margin: 1rem 0 0; font-weight: 600; }
+.contact-form__status.is-ok { color: var(--brand); }
+.contact-form__status.is-error { color: #b91c1c; }
+.contact-form button[disabled] { opacity: .6; cursor: wait; }
+@media (max-width: 620px) { .contact-form__grid { grid-template-columns: 1fr; } }
 
 /* ── Блог ────────────────────────────────────────────────── */
 .post-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }

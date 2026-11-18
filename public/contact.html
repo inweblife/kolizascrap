@@ -77,6 +77,24 @@
     </div>
   </div>
 
+  <div class="container">
+    <form class="contact-form" id="forma" action="/api/contact" method="post">
+      <h2>Изпратете запитване</h2>
+      <p class="contact-form__lead">Оставете телефон и данни за колата – ще Ви се обадим с оценка.</p>
+      <div class="contact-form__grid">
+        <label>Име *<input name="name" type="text" autocomplete="name" maxlength="100" required></label>
+        <label>Телефон *<input name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="40" required></label>
+        <label>Марка и модел<input name="car" type="text" maxlength="120" placeholder="напр. VW Golf 4, бензин, хечбек"></label>
+        <label>Година<input name="year" type="text" inputmode="numeric" maxlength="10"></label>
+        <label class="contact-form__full">Местоположение на колата<input name="location" type="text" maxlength="160" placeholder="квартал или населено място"></label>
+        <label class="contact-form__full">Съобщение<textarea name="message" rows="4" maxlength="3000"></textarea></label>
+        <label class="contact-form__hp" aria-hidden="true">Уебсайт<input name="website" type="text" tabindex="-1" autocomplete="off"></label>
+      </div>
+      <button class="btn btn--primary btn--lg" type="submit">Изпрати</button>
+      <p class="contact-form__status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+
   <div class="container prose">
     <p>
       Ние работим всеки ден от 8 сутринта до 20 вечерта, без почивен ден и
