@@ -144,6 +144,7 @@ ${body}
   </div>
   <div class="container site-footer__bottom">
     <p>&copy; ${year} ${SITE}. Всички права запазени.</p>
+    <p><a href="/sitemap">Карта на сайта</a></p>
   </div>
 </footer>
 
@@ -166,7 +167,6 @@ const STATIC = [
     keywords: "Коли за скрап София, Изкупуване на коли, автомобили за скрап",
     ogImage: "/mercedes.webp",
     head:
-      '<meta name="google-site-verification" content="o3yDWZaFGvq8nSbZFsW2kJnBTWBvjgYuVkIS_8vihgQ">\n' +
       '<link rel="preload" as="image" href="/mercedes.webp">\n' +
       ld({
         "@context": "https://schema.org",
@@ -328,6 +328,32 @@ ${CTA}`,
   }));
 });
 
+// ── HTML карта на сайта ──────────────────────────────────────
+write("sitemap.html", layout({
+  path: "/sitemap",
+  title: "Карта на сайта | Коли за скрап София",
+  description: "Всички страници и статии на Коли за скрап София на едно място – услуги, контакти и полезни статии за бракуване и изкупуване на коли.",
+  body: `<section class="page-head">
+  <div class="container">
+    <h1>Карта на сайта</h1>
+    <p class="page-head__lead">Всички страници и статии на едно място.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container prose">
+    <h2>Страници</h2>
+    <ul>
+${NAV.map(([href, label]) => `      <li><a href="${href}">${label}</a></li>`).join("\n")}
+    </ul>
+    <h2>Статии в блога</h2>
+    <ul>
+${posts.map((p) => `      <li><a href="/blog/${p.slug}">${esc(p.title)}</a> <small>(${fmtDate(p.date)})</small></li>`).join("\n")}
+    </ul>
+  </div>
+</section>
+${CTA}`,
+}));
+
 // ── sitemap.xml и rss.xml ────────────────────────────────────
 // Дата на последната промяна на страниците (сменя се ръчно при промяна на текстовете).
 const today = "2026-11-18";
@@ -336,6 +362,7 @@ const urls = [
   ["/about", "monthly", "0.7", today],
   ["/services", "monthly", "0.7", today],
   ["/contact", "monthly", "0.6", today],
+  ["/sitemap", "weekly", "0.3", today],
   ["/blog", "weekly", "0.8", posts[0]?.date || today],
   ...posts.map((p) => [`/blog/${p.slug}`, "monthly", "0.7", p.date]),
 ];
