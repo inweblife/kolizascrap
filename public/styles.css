@@ -288,6 +288,8 @@ p { margin: 0 0 1.1em; }
     box-shadow: 0 8px 24px rgb(20 83 45 / .4);
   }
   .call-fab:hover { color: #fff; background: var(--brand-dark); }
+  .call-fab { transition: opacity .2s, transform .2s; }
+  .call-fab.is-hidden { opacity: 0; transform: translateY(16px); pointer-events: none; }
   .site-footer { padding-bottom: 4.5rem; }
 }
 

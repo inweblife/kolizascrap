@@ -48,3 +48,19 @@
       .then(function () { btn.disabled = false; });
   });
 })();
+
+// Плаващ бутон „Обадете се“: скрива се, когато на екрана вече има друг бутон с телефона или футърът
+(function () {
+  var fab = document.querySelector(".call-fab");
+  if (!fab || !("IntersectionObserver" in window)) return;
+  var targets = Array.prototype.filter.call(
+    document.querySelectorAll('a[href^="tel:"]:not(.call-fab), .site-footer'),
+    function (el) { return !el.closest(".site-nav"); }
+  );
+  var visible = new Set();
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { e.isIntersecting ? visible.add(e.target) : visible.delete(e.target); });
+    fab.classList.toggle("is-hidden", visible.size > 0);
+  });
+  targets.forEach(function (el) { io.observe(el); });
+})();
