@@ -85,7 +85,9 @@ ${keywords ? `<meta name="keywords" content="${esc(keywords)}">` : ""}
 <meta name="robots" content="${noindex ? "noindex, follow" : "index, follow"}">
 ${noindex ? "" : `<link rel="canonical" href="${url}">`}
 <meta name="theme-color" content="#14532d">
-<link rel="icon" href="/favicon.ico">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
 <link rel="alternate" type="application/rss+xml" title="${SITE} - Блог" href="/rss.xml">
 <meta property="og:locale" content="bg_BG">
